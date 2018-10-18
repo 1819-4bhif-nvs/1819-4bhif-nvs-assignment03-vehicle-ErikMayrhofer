@@ -1,0 +1,52 @@
+GET http://localhost:8080/vehicle/rs/vehicle
+Accept: application/xml
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/vehicle/rs/vehicle/1
+Accept: application/xml
+Cache-Control: no-cache
+
+<> 2018-10-08T113230.200.xml
+
+###
+
+GET http://localhost:8080/vehicle/rs/vehicle/1
+Accept: application/xml
+Cache-Control: no-cache
+
+<> 2018-10-08T113229.200.xml
+
+###
+
+GET http://localhost:8080/vehicle/rs/vehicle/1
+Accept: application/xml
+Cache-Control: no-cache
+
+<> 2018-10-08T113221.200.xml
+
+###
+
+GET http://localhost:8080/vehicle/rs/vehicle/1
+Accept: application/xml
+Cache-Control: no-cache
+
+<> 2018-10-08T113215.200.xml
+
+###
+
+GET http://localhost:8080/vehicle/3
+Accept: application/xml
+Cache-Control: no-cache
+
+<> 2018-10-08T113205.404.html
+
+###
+
+GET http://localhost:8080/vehicle/{id}
+Accept: application/xml
+Cache-Control: no-cache
+
+###
+
